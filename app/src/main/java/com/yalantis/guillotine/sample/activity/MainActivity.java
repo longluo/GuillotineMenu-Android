@@ -1,24 +1,24 @@
 package com.yalantis.guillotine.sample.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import com.yalantis.guillotine.animation.GuillotineAnimation;
 import com.yalantis.guillotine.sample.R;
 
-import butterknife.ButterKnife;
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Created by Dmytro Denysenko on 5/4/15.
  */
 public class MainActivity extends AppCompatActivity {
     private static final long RIPPLE_DURATION = 250;
-
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
